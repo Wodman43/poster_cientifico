@@ -1,0 +1,84 @@
+body{
+    background-color: bisque;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(1,1fr) ;
+    gap: 20px;
+}
+
+.padre .hijo1{
+    display: grid;
+   grid-template-columns:repeat(3,1fr) ;
+   gap: 20px;
+}
+
+.logo1{
+    background-color: aquamarine;
+}
+
+.logo2{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.title{
+    background-color: rgb(78, 78, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.padre .hijo2{
+    display: grid;
+   grid-template-columns:repeat(1,1fr) ;
+   background-color: red;
+   height: auto;
+   max-height: 300px;
+}
+
+.padre .hijo3{
+    display: grid;
+   grid-template-columns:repeat(2,1fr) ;
+   gap: 20px;
+}
+.hijo3 .antecedentes{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.antecedentes{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.hijo3 .estadisticas {
+    background-color: rgb(21, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre .hijo4{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 20px;
+}
+
+.hijo4 .tasks{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 20px;
+ }
+
+ .task{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
